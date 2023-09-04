@@ -26,6 +26,7 @@ def regist_attendance(request):
         attendance.attendance = attendance_value
         attendance.reason = reason_value
         attendance.reply = ""
+        attendance.datetime = timezone.now()
 
         try:
             # データベースに登録
@@ -140,6 +141,7 @@ def update_reply(request):
         
         attendance = Attendance.objects.filter(child=child_id).latest('datetime')
         attendance.reply = reply_value
+        attendance.datetime = timezone.now()
 
         try:
             # データベースに登録
