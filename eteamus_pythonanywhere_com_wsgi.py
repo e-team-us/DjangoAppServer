@@ -9,12 +9,12 @@ import os
 import sys
 
 # add your project directory to the sys.path
-project_home = '/home/EteamUS/mysite'
+project_home = '/home/EteamUS/DjangoAppServer'
 if project_home not in sys.path:
     sys.path.insert(0, project_home)
 
 # set environment variable to tell django where your settings.py is
-os.environ['DJANGO_SETTINGS_MODULE'] = 'mysite.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'mySite.settings'
 
 
 # serve django via WSGI
