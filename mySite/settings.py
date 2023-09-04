@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp',
-    'rest_framework',
+    # 'rest_framework',
     'corsheaders',
 ]
 
@@ -110,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'ja'
 
-TIME_ZONE = 'JAPAN'
+TIME_ZONE = 'Asia/Tokyo'
 
 USE_I18N = True
 
