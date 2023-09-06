@@ -68,7 +68,6 @@ mySite
 
 
 
-## 以下、舘石勝手に追記
 ### 環境構築、アプリ立ち上げの手順
 0. corsheadersをインストール, '''conda install -c conda-forge django-cors-headers'''
 1. mySite/に入る。
