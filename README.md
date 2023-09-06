@@ -67,7 +67,7 @@ mySite
 
 
 
-
+<!--
 ### 環境構築、アプリ立ち上げの手順
 0. corsheadersをインストール, '''conda install -c conda-forge django-cors-headers'''
 1. mySite/に入る。
@@ -106,3 +106,4 @@ mySite
 ### ReadmeのTips:
 - [素敵なREADMEの書き方](https://qiita.com/koeri3/items/f85a617dcb6efebb2cab)
 - [↑の記事内で紹介されている素敵なREADMEがまとまったgithub](https://github.com/matiassingers/awesome-readme)
+-->
